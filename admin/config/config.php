@@ -31,6 +31,10 @@ $config['function_trigger'] = 'm';
 
 $config['directory_trigger'] = 'd';
 
+$config['controller_suffix'] = 'controller';
+
+$config['action_prefix'] = 'action';
+
 /*
 |	0 = Disables logging, Error logging TURNED OFF
 |	1 = Error Messages (including PHP errors)

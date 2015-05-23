@@ -7,7 +7,7 @@
   <meta name="author" content="">
   <link rel="shortcut icon" href="<?php echo $template;?>/images/favicon.png" type="image/png">
 
-  <title>微信公众号管理后台</title>
+  <title>WeChat Admin</title>
 
   <link href="<?php echo $template;?>/css/style.default.css" rel="stylesheet">
 
@@ -31,7 +31,7 @@
                 
                 <div class="signin-info">
                     <div class="logopanel">
-                        <h1><span>[</span> 公众号后台 <span>]</span></h1>
+                        <h1><span>[</span>WeChat Admin<span>]</span></h1>
                     </div><!-- logopanel -->
                 
                     <div class="mb20"></div>
