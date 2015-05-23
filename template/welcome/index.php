@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="<? echo $template;?>/images/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="<?php echo $template;?>images/favicon.png" type="image/png">
 
-  <title>π´÷⁄∫≈∫ÛÃ® </title>
+  <title>Bracket Responsive Bootstrap3 Admin</title>
 
-  <link href="<? echo $template;?>/css/style.default.css" rel="stylesheet">
+  <link href="<?php echo $template;?>css/style.default.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-  <script src="<? echo $template;?>/js/html5shiv.js"></script>
-  <script src="<? echo $template;?>/js/respond.min.js"></script>
+  <script src="<?php echo $template;?>js/html5shiv.js"></script>
+  <script src="<?php echo $template;?>js/respond.min.js"></script>
   <![endif]-->
 </head>
 
@@ -29,7 +29,7 @@
   <div class="leftpanel">
     
     <div class="logopanel">
-        <h1><span>[</span> π´÷⁄∫≈∫ÛÃ® <span>]</span></h1>
+        <h1><span>[</span> ÂÖ¨‰ºóÂè∑ÂêéÂè∞ <span>]</span></h1>
     </div><!-- logopanel -->
         
     <div class="leftpanelinner">    
@@ -37,7 +37,7 @@
         <!-- This is only visible to small devices -->
         <div class="visible-xs hidden-sm hidden-md hidden-lg">   
             <div class="media userlogged">
-                <img alt="" src="<? echo $template;?>/images/photos/loggeduser.png" class="media-object">
+                <img alt="" src="<?php echo $template;?>images/photos/loggeduser.png" class="media-object">
                 <div class="media-body">
                     <h4>John Doe</h4>
                     <span>"Life is so..."</span>
@@ -55,7 +55,7 @@
       
       <h5 class="sidebartitle">Navigation</h5>
       <ul class="nav nav-pills nav-stacked nav-bracket">
-        <li class="active"><a href="index.html"><i class="fa fa-home"></i> <span>π´÷⁄∫≈</span></a></li>
+        <li class="active"><a href="index.html"><i class="fa fa-home"></i> <span>ÂÖ¨‰ºóÂè∑</span></a></li>
         <li><a href="email.html"><span class="pull-right badge badge-success">2</span><i class="fa fa-envelope-o"></i> <span>Email</span></a></li>
         <li class="nav-parent"><a href=""><i class="fa fa-edit"></i> <span>Forms</span></a>
           <ul class="children">
@@ -146,31 +146,31 @@
                 <h5 class="title">2 Newly Registered Users</h5>
                 <ul class="dropdown-list user-list">
                   <li class="new">
-                    <div class="thumb"><a href=""><img src="<? echo $template;?>/images/photos/user1.png" alt="" /></a></div>
+                    <div class="thumb"><a href=""><img src="<?php echo $template;?>images/photos/user1.png" alt="" /></a></div>
                     <div class="desc">
                       <h5><a href="">Draniem Daamul (@draniem)</a> <span class="badge badge-success">new</span></h5>
                     </div>
                   </li>
                   <li class="new">
-                    <div class="thumb"><a href=""><img src="<? echo $template;?>/images/photos/user2.png" alt="" /></a></div>
+                    <div class="thumb"><a href=""><img src="<?php echo $template;?>images/photos/user2.png" alt="" /></a></div>
                     <div class="desc">
                       <h5><a href="">Zaham Sindilmaca (@zaham)</a> <span class="badge badge-success">new</span></h5>
                     </div>
                   </li>
                   <li>
-                    <div class="thumb"><a href=""><img src="<? echo $template;?>/images/photos/user3.png" alt="" /></a></div>
+                    <div class="thumb"><a href=""><img src="<?php echo $template;?>images/photos/user3.png" alt="" /></a></div>
                     <div class="desc">
                       <h5><a href="">Weno Carasbong (@wenocar)</a></h5>
                     </div>
                   </li>
                   <li>
-                    <div class="thumb"><a href=""><img src="<? echo $template;?>/images/photos/user4.png" alt="" /></a></div>
+                    <div class="thumb"><a href=""><img src="<?php echo $template;?>images/photos/user4.png" alt="" /></a></div>
                     <div class="desc">
                       <h5><a href="">Nusja Nawancali (@nusja)</a></h5>
                     </div>
                   </li>
                   <li>
-                    <div class="thumb"><a href=""><img src="<? echo $template;?>/images/photos/user5.png" alt="" /></a></div>
+                    <div class="thumb"><a href=""><img src="<?php echo $template;?>images/photos/user5.png" alt="" /></a></div>
                     <div class="desc">
                       <h5><a href="">Lane Kitmari (@lane_kitmare)</a></h5>
                     </div>
@@ -191,7 +191,7 @@
                 <ul class="dropdown-list gen-list">
                   <li class="new">
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user1.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user1.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Draniem Daamul <span class="badge badge-success">new</span></span>
                       <span class="msg">Lorem ipsum dolor sit amet...</span>
@@ -200,7 +200,7 @@
                   </li>
                   <li>
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user2.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user2.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Nusja Nawancali</span>
                       <span class="msg">Lorem ipsum dolor sit amet...</span>
@@ -209,7 +209,7 @@
                   </li>
                   <li>
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user3.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user3.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Weno Carasbong</span>
                       <span class="msg">Lorem ipsum dolor sit amet...</span>
@@ -218,7 +218,7 @@
                   </li>
                   <li>
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user4.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user4.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Zaham Sindilmaca</span>
                       <span class="msg">Lorem ipsum dolor sit amet...</span>
@@ -227,7 +227,7 @@
                   </li>
                   <li>
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user5.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user5.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Veno Leongal</span>
                       <span class="msg">Lorem ipsum dolor sit amet...</span>
@@ -250,7 +250,7 @@
                 <ul class="dropdown-list gen-list">
                   <li class="new">
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user4.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user4.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Zaham Sindilmaca <span class="badge badge-success">new</span></span>
                       <span class="msg">is now following you</span>
@@ -259,7 +259,7 @@
                   </li>
                   <li class="new">
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user5.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user5.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Weno Carasbong <span class="badge badge-success">new</span></span>
                       <span class="msg">is now following you</span>
@@ -268,7 +268,7 @@
                   </li>
                   <li class="new">
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user3.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user3.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Veno Leongal <span class="badge badge-success">new</span></span>
                       <span class="msg">likes your recent status</span>
@@ -277,7 +277,7 @@
                   </li>
                   <li class="new">
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user3.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user3.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Nusja Nawancali <span class="badge badge-success">new</span></span>
                       <span class="msg">downloaded your work</span>
@@ -286,7 +286,7 @@
                   </li>
                   <li class="new">
                     <a href="">
-                    <span class="thumb"><img src="<? echo $template;?>/images/photos/user3.png" alt="" /></span>
+                    <span class="thumb"><img src="<?php echo $template;?>images/photos/user3.png" alt="" /></span>
                     <span class="desc">
                       <span class="name">Nusja Nawancali <span class="badge badge-success">new</span></span>
                       <span class="msg">send you 2 messages</span>
@@ -301,7 +301,7 @@
           <li>
             <div class="btn-group">
               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                <img src="<? echo $template;?>/images/photos/loggeduser.png" alt="" />
+                <img src="<?php echo $template;?>images/photos/loggeduser.png" alt="" />
                 John Doe
                 <span class="caret"></span>
               </button>
@@ -344,10 +344,10 @@
             <table class="table table-bordered mb30">
             <thead>
               <tr>
-                <th>π´÷⁄∫≈</th>
+                <th>ÂÖ¨‰ºóÂè∑</th>
                 <th>AppId</th>
                 <th>Url</th>
-                <th>≤Ÿ◊˜</th>
+                <th>Êìç‰Ωú</th>
               </tr>
             </thead>
             <tbody>
@@ -355,43 +355,43 @@
                 <td><a>Mark<a/></td>
                 <td>Otto</td>
                 <td>@mdo</td>
-                <td><a>«–ªª</a></td>
+                <td><a>ÂàáÊç¢</a></td>
               </tr>
               <tr>
                 <td><a>Jacob</a></td>
                 <td>Thornton</td>
                 <td>@fat</td>
-                <td><a>«–ªª</a></td>
+                <td><a>ÂàáÊç¢</a></td>
               </tr>
               <tr>
                 <td><a>Larry</a></td>
                 <td>the Bird</td>
                 <td>@twitter</td>
-                <td><a>«–ªª</a></td>
+                <td><a>ÂàáÊç¢</a></td>
               </tr>
               <tr>
                 <td><a>Mark</a></td>
                 <td>Otto</td>
                 <td>@mdo</td>
-                <td><a>«–ªª</a></td>
+                <td><a>ÂàáÊç¢</a></td>
               </tr>
               <tr>
                 <td><a>Jacob</a></td>
                 <td>Thornton</td>
                 <td>@fat</td>
-                <td><a>«–ªª</a></td>
+                <td><a>ÂàáÊç¢</a></td>
               </tr>
               <tr>
                 <td><a>Larry</a></td>
                 <td>the Bird</td>
                 <td>@twitter</td>
-                <td><a>«–ªª</a></td>
+                <td><a>ÂàáÊç¢</a></td>
               </tr>
               <tr>
                 <td><a>Larry</a></td>
                 <td>the Bird</td>
                 <td>@twitter</td>
-                <td><a>«–ªª</a></td>
+                <td><a>ÂàáÊç¢</a></td>
               </tr>
             </tbody>
           </table>
@@ -421,7 +421,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/userprofile.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/userprofile.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Eileen Sideways</strong>
@@ -432,7 +432,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user1.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user1.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <span class="pull-right badge badge-danger">2</span>
@@ -444,7 +444,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user2.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user2.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Nusja Nawancali</strong>
@@ -455,7 +455,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user3.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user3.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Renov Leongal</strong>
@@ -466,7 +466,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user4.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user4.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Weno Carasbong</strong>
@@ -483,7 +483,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user5.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user5.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Eileen Sideways</strong>
@@ -494,7 +494,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user2.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user2.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Zaham Sindilmaca</strong>
@@ -505,7 +505,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user3.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user3.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Nusja Nawancali</strong>
@@ -516,7 +516,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user4.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user4.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Renov Leongal</strong>
@@ -527,7 +527,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user5.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user5.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Weno Carasbong</strong>
@@ -538,7 +538,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user4.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user4.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Renov Leongal</strong>
@@ -549,7 +549,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user5.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user5.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Weno Carasbong</strong>
@@ -565,7 +565,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user2.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user2.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Eileen Sideways</strong>
@@ -576,7 +576,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user1.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user1.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Zaham Sindilmaca</strong>
@@ -587,7 +587,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user3.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user3.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Nusja Nawancali</strong>
@@ -598,7 +598,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user4.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user4.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Renov Leongal</strong>
@@ -609,7 +609,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user5.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user5.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Weno Carasbong</strong>
@@ -625,7 +625,7 @@
                 <li class="online">
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user4.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user4.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Eileen Sideways</strong>
@@ -636,7 +636,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user2.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user2.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Zaham Sindilmaca</strong>
@@ -647,7 +647,7 @@
                 <li>
                     <div class="media">
                         <a href="#" class="pull-left media-thumb">
-                            <img alt="" src="<? echo $template;?>/images/photos/user3.png" class="media-object">
+                            <img alt="" src="<?php echo $template;?>images/photos/user3.png" class="media-object">
                         </a>
                         <div class="media-body">
                             <strong>Nusja Nawancali</strong>
@@ -697,24 +697,24 @@
 </section>
 
 
-<script src="<? echo $template;?>/js/jquery-1.11.1.min.js"></script>
-<script src="<? echo $template;?>/js/jquery-migrate-1.2.1.min.js"></script>
-<script src="<? echo $template;?>/js/jquery-ui-1.10.3.min.js"></script>
-<script src="<? echo $template;?>/js/bootstrap.min.js"></script>
-<script src="<? echo $template;?>/js/modernizr.min.js"></script>
-<script src="<? echo $template;?>/js/jquery.sparkline.min.js"></script>
-<script src="<? echo $template;?>/js/toggles.min.js"></script>
-<script src="<? echo $template;?>/js/retina.min.js"></script>
-<script src="<? echo $template;?>/js/jquery.cookies.js"></script>
+<script src="<?php echo $template;?>js/jquery-1.11.1.min.js"></script>
+<script src="<?php echo $template;?>js/jquery-migrate-1.2.1.min.js"></script>
+<script src="<?php echo $template;?>js/jquery-ui-1.10.3.min.js"></script>
+<script src="<?php echo $template;?>js/bootstrap.min.js"></script>
+<script src="<?php echo $template;?>js/modernizr.min.js"></script>
+<script src="<?php echo $template;?>js/jquery.sparkline.min.js"></script>
+<script src="<?php echo $template;?>js/toggles.min.js"></script>
+<script src="<?php echo $template;?>js/retina.min.js"></script>
+<script src="<?php echo $template;?>js/jquery.cookies.js"></script>
 
-<script src="<? echo $template;?>/js/flot/jquery.flot.min.js"></script>
-<script src="<? echo $template;?>/js/flot/jquery.flot.resize.min.js"></script>
-<script src="<? echo $template;?>/js/flot/jquery.flot.spline.min.js"></script>
-<script src="<? echo $template;?>/js/morris.min.js"></script>
-<script src="<? echo $template;?>/js/raphael-2.1.0.min.js"></script>
+<script src="<?php echo $template;?>js/flot/jquery.flot.min.js"></script>
+<script src="<?php echo $template;?>js/flot/jquery.flot.resize.min.js"></script>
+<script src="<?php echo $template;?>js/flot/jquery.flot.spline.min.js"></script>
+<script src="<?php echo $template;?>js/morris.min.js"></script>
+<script src="<?php echo $template;?>js/raphael-2.1.0.min.js"></script>
 
-<script src="<? echo $template;?>/js/custom.js"></script>
-<script src="<? echo $template;?>/js/dashboard.js"></script>
+<script src="<?php echo $template;?>js/custom.js"></script>
+<script src="<?php echo $template;?>js/dashboard.js"></script>
 
 </body>
 </html>
