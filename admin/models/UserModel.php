@@ -16,7 +16,7 @@ class UserModel extends M_Model {
 	}
 
 	/*--------------------------------------------------------------------------------
-	* 获取指定uid用户的详细信息
+	* 获取指定uid用户详细信息
 	* @Date: 2015-5-23  下午9:41:36
 	* @Author: JustPHP@qq.com
 	* @variable: $uid int
@@ -36,15 +36,23 @@ class UserModel extends M_Model {
 	}
 	
 	/*--------------------------------------------------------------------------------
-	* 获取总用户数
-	* @Date: 2015-5-23  下午9:45:36
+	* 获取指定username用户的详细信息
+	* @Date: 2015-5-24  上午1:32:03
 	* @Author: JustPHP@qq.com
-	* @variable: null
-	* @Return:int
+	* @variable
+	* @Return:
 	*/
-	public function getAllCount() {
+	public function getUserByUserName($username) {
 		
-		return $this->db->count_all($this->table);		
+		$result = array();
+		$sql = "SELECT * FROM {$this->table} WHERE username='{$username}' LIMIT 1";
+		$queryObj = $this->db->query($sql);
+		foreach ($queryObj->result_array() as $row) {
+			$result = $row;
+		}
+		$queryObj=null;
+		
+		return $result;		
 	}
 	
 	

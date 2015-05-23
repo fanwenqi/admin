@@ -34,3 +34,4 @@ define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
 define('ADMIN', 1);
+define('TOKEN', 'wechat7363#2@%ijdk');

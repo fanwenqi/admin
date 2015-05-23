@@ -16,6 +16,14 @@ class Rbac {
 	public function isAccess($uid) {
 		
 		
+		$this->load->model('UserModel');
+		$user = $this->UserModel->getUserById($uid);
+		if( $user['gid'] == ADMIN ) {
+			return true;
+		}
+		
+		
+		
 	}
 	
 }

@@ -124,6 +124,8 @@ switch (ENVIRONMENT)
 	}
 
 	define('VIEWPATH', $view_folder);
+	
+	session_start();
 
 /*
  * LOAD THE BOOTSTRAP FILE
