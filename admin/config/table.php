@@ -14,3 +14,7 @@ $config['group'] = 'g_group';
 $config['access'] = 'g_access';
 
 $config['node'] = 'g_node';
+
+$config['site'] = 'g_site';
+
+$config['lang'] = 'g_lang';

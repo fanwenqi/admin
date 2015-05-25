@@ -4,11 +4,15 @@
 	 * 
 	 */
 	class M_Loader extends CI_Loader
-	{
-
+	{		
+		public function __construct() {
+			parent::__construct();
+		}
+		
+		
 		public function view($view, $vars = array(), $return = FALSE)
 		{
-			$m_controller = new M_Controller();
+			$m_controller = M_Controller::get_instance();
 			$m_controller->config->load('config');
 			$vars['template'] = $m_controller->config->item('base_url').'template/';
 			

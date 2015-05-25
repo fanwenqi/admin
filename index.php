@@ -130,4 +130,4 @@ switch (ENVIRONMENT)
 /*
  * LOAD THE BOOTSTRAP FILE
  */
-require_once BASEPATH.'core/CodeIgniter.php';
+require BASEPATH.'core/CodeIgniter.php';

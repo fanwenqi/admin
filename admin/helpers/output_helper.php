@@ -19,3 +19,21 @@ if ( ! function_exists('json_out'))
 		die( json_encode($array));
 	}
 }
+
+
+if ( ! function_exists('get_token'))
+{
+	function get_token()
+	{
+		return md5(uniqid().TOKEN);
+	}
+}
+
+
+if ( ! function_exists('get_pwd'))
+{
+	function get_pwd($pwd)
+	{
+		return md5($pwd.TOKEN);
+	}
+}

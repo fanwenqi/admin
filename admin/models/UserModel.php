@@ -15,25 +15,6 @@ class UserModel extends M_Model {
 		$this->pk_id = 'uid';
 	}
 
-	/*--------------------------------------------------------------------------------
-	* 获取指定uid用户详细信息
-	* @Date: 2015-5-23  下午9:41:36
-	* @Author: JustPHP@qq.com
-	* @variable: $uid int
-	* @Return:array
-	*/
-	public function getUserById($uid) {
-		
-		$result = array();
-		$sql = "SELECT * FROM {$this->table} WHERE {$this->pk_id}='{$uid}' LIMIT 1";
-		$queryObj = $this->db->query($sql);
-		foreach ($queryObj->result_array() as $row) {
-			$result = $row;
-		}
-		$queryObj=null;
-		
-		return $result;
-	}
 	
 	/*--------------------------------------------------------------------------------
 	* 获取指定username用户的详细信息
@@ -55,5 +36,23 @@ class UserModel extends M_Model {
 		return $result;		
 	}
 	
-	
+
+	public function getListByPage($current, $page_size=null)
+	{
+		$result['list'] = array();
+		$result['total'] = $this->db->count_all($this->table);
+		if ( $result['total']==0 ) {
+			return $result;
+		}
+		
+		$page_size = empty($page_size) ? $this->page_size : $page_size;
+		$sql = "SELECT * FROM {$this->table} ORDER BY timestamp desc limit {$current}, {$page_size}";
+		$queryObj = $this->db->query($sql);
+		foreach ($queryObj->result_array() as $row) {
+			$result['list'][] = $row;
+		}
+		$queryObj=null; 
+
+		return $result;
+	}
 }
