@@ -82,8 +82,8 @@
 	text-align: right;
 }
 
-.dataTables_paginate a.paginate_button,
-.dataTables_paginate a.paginate_active {
+.dataTables_paginate span.paginate_button,
+.dataTables_paginate span.paginate_active {
 	border: 1px solid #ddd;
 	padding: 6px 12px;
 	margin-right: 5px;

@@ -16,6 +16,6 @@
 
 <script src="<?php echo $template;?>js/custom.js"></script>
 <script src="<?php echo $template;?>js/dashboard.js"></script>
-
+<script src="<?php echo $template;?>js/self.js"></script>
 </body>
 </html>

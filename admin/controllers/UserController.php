@@ -23,13 +23,15 @@ class UserController extends M_Controller
 	* @Return:
 	*/
 	public function actionList() {
-	
-		$data = $this->UserModel->getListByPage(0);
-	
-		$this->load->library('pagination');
+		
+		$page_size = $this->UserModel->page_size;
+		$cur_page = $this->uri->segment(3) * $page_size;
+		$data = $this->UserModel->getListByPage($cur_page, $page_size);
+		
+		$this->load->library('pagination');			
 		$config['base_url'] = site_url('user/list');
 		$config['total_rows'] = $data['total'];
-		$config['per_page'] = 1;
+		$config['per_page'] = $page_size;
 		$data['page'] = $this->pagination->showPage($config);
 		
 		$this->load->view('user/list', $data);

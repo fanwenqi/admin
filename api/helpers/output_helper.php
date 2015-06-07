@@ -15,11 +15,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if ( ! function_exists('json_out'))
 {
 	function json_out($array)
-	{
+	{	
 		if( is_string($array) ) {
-			die($array);
+			die( $array );
 		}
-		die( json_encode($array));
+		else {
+			die( json_encode($array));
+		}
 	}
 }
 
@@ -28,7 +30,7 @@ if ( ! function_exists('get_token'))
 {
 	function get_token()
 	{
-		return md5(uniqid().TOKEN);
+		return md5(uniqid().SECRET);
 	}
 }
 
@@ -37,7 +39,7 @@ if ( ! function_exists('get_pwd'))
 {
 	function get_pwd($pwd)
 	{
-		return md5($pwd.TOKEN);
+		return md5($pwd.SECRET);
 	}
 }
 
@@ -50,3 +52,21 @@ if ( ! function_exists('get_status'))
 		return $status_arr[$status_code];
 	}
 }
+
+
+if ( ! function_exists('gen_guid') ) {
+	function gen_guid()
+	{
+		mt_srand((double)microtime()*10000);//optional for php 4.2.0 and up.
+		$charid = strtoupper(md5(uniqid(APPID, true)));
+		$hyphen = chr(45);// "-"
+		$uuid = substr($charid, 0, 8).$hyphen
+		.substr($charid, 8, 4).$hyphen
+		.substr($charid,12, 4).$hyphen
+		.substr($charid,16, 4).$hyphen
+		.substr($charid,20,12);
+		return $uuid;	
+	}
+}
+
+

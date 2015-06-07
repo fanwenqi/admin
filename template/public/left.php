@@ -37,18 +37,10 @@
             <li><a href="<?php echo site_url('access/list')?>"><i class="fa fa-caret-right"></i>权限列表</a></li>
           </ul>
         </li>
-        <li class="nav-parent"><a href=""><i class="fa fa-suitcase"></i> <span>UI Elements</span></a>
+        <li class="nav-parent"><a href=""><i class="fa fa-edit"></i> <span>公众号管理</span></a>
           <ul class="children">
-            <li><a href="buttons.html"><i class="fa fa-caret-right"></i> Buttons</a></li>
-            <li><a href="icons.html"><span class="pull-right badge badge-danger">updated</span><i class="fa fa-caret-right"></i> Icons</a></li>
-            <li><a href="typography.html"><i class="fa fa-caret-right"></i> Typography</a></li>
-            <li><a href="alerts.html"><i class="fa fa-caret-right"></i> Alerts &amp; Notifications</a></li>
-            <li><a href="modals.html"><i class="fa fa-caret-right"></i> Modals</a></li>
-            <li><a href="tabs-accordions.html"><i class="fa fa-caret-right"></i> Tabs &amp; Accordions</a></li>
-            <li><a href="sliders.html"><i class="fa fa-caret-right"></i> Sliders</a></li>
-            <li><a href="graphs.html"><i class="fa fa-caret-right"></i> Graphs &amp; Charts</a></li>
-            <li><a href="widgets.html"><i class="fa fa-caret-right"></i> Panels &amp; Widgets</a></li>
-            <li><a href="extras.html"><i class="fa fa-caret-right"></i> Extras</a></li>
+            <li><a href="<?php echo site_url('user/list')?>"><i class="fa fa-caret-right"></i>公众号列表</a></li>
+            <li><a href="<?php echo site_url('group/list')?>"><i class="fa fa-caret-right"></i>公众号APi列表</a></li>
           </ul>
         </li>
         <li><a href="tables.html"><i class="fa fa-th-list"></i> <span>Tables</span></a></li>

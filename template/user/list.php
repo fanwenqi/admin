@@ -41,7 +41,7 @@
           </table>
           </div><!-- table-responsive -->
           
-          <?php include VIEWPATH.'public/page.php'?>
+         <?php echo $page;?>
           
         </div><!-- col-sm-12 -->
 
